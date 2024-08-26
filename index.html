@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Home Page</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font aws -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href=""><img src="./assets/images/logo.svg" alt="" /></a>
+          </div>
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="#popular">Popular</a></li>
+              <li><a href="">Trending</a></li>
+              <li><a href="#categories">Categories</a></li>
+            </ul>
+            <div class="close-bar" id="close-bar">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+          <div class="side-bar" id="side-bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner-section">
+      <div class="container">
+        <div class="hero-banner">
+          <div class="hero-container">
+            <picture class="hero-img">
+              <source
+                media="(320px <= width <= 768px)"
+                srcset="./assets/images/image-web-3-mobile.jpg"
+              />
+              <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
+            </picture>
+            <div class="hero-content">
+              <h1>The Bright Future of Web 3.0?</h1>
+              <div class="hero-desc">
+                <p>
+                  The bright future of Web 3.0, or the decentralized web,
+                  promises significant transformations in data and digital asset
+                  management. Leveraging blockchain technology, Web 3.0 aims to
+                  create a more open, transparent, and secure internet where
+                  users have greater control over their data and digital
+                  identities.
+                </p>
+                <a href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+          <article class="latest-news" id="popular">
+            <h2>Article</h2>
+            <div class="article-1">
+              <h5>Valorant Vs Counter Strike</h5>
+              <p>
+                Valorant and Counter-Strike are both tactical first-person
+                shooters, but Valorant introduces hero-based gameplay with
+                unique character abilities.
+              </p>
+            </div>
+            <div class="article-2">
+              <h5>New Update In Valorant</h5>
+              <p>
+                The latest Valorant update, Patch 8.0, introduces significant
+                map adjustments and new features, including support for
+                third-party spatial audio solutions for enhanced sound
+                differentiation​.
+              </p>
+            </div>
+            <div class="article-3">
+              <h5>New Update In Counter Strike</h5>
+              <p>
+                The latest update in Counter-Strike: Global Offensive, released
+                on July 2, 2024, includes significant changes such as updates to
+                the Community Workshop maps and fixes to excessive viewmodel
+                bobbing on Linux systems.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-card" id="categories">
+      <div class="container">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+            </div>
+            <div class="card-content">
+              <h3>01</h3>
+              <h4>Top 10 PC Games</h4>
+              <p>What are the top 10 PC games of 2024?</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+            </div>
+            <div class="card-content">
+              <h3>02</h3>
+              <h4>Top 5 Mobiles Phones in India</h4>
+              <p>What are the top 5 mobile phones in India in July 2024?</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/images/image-top-laptops.jpg" alt="" />
+            </div>
+            <div class="card-content">
+              <h3>03</h3>
+              <h4>Top 5 User-friendly Gadgets</h4>
+              <p>
+                What are the top 5 user-friendly gadgets available in India?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
